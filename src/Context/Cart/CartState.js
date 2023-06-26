@@ -17,7 +17,7 @@ const CartState = ({children}) => {
   }
 
   const showHideCart = () => {
-    dispatch({tye: SHOW_HIDE_CART})
+    dispatch({type: SHOW_HIDE_CART})
   }
 
   const removeItem = id => {
