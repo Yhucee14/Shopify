@@ -5,6 +5,8 @@
     border-radius: 12px;
     margin: auto;
     word-wrap: break-word;
+    color: black;
+    background: white;
   }
   
   .productCard__img {
@@ -26,14 +28,15 @@
     padding: 6px 10px;
     cursor: pointer;
     border-radius: 25px;
-    background-color: #ffa430;
+    background-color: purple;
+    color: white;
     border: none;
     transition: all 0.2s ease-in;
   }
   
   .ProductCard__button:hover {
-    color: white;
-    background-color: #f1b668;
+    color: black;
+    background-color: white;
     transform: translate(2px, -2px);
   }
   
